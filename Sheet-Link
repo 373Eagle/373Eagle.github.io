@@ -1,5 +1,5 @@
 function init() {
-          Papa.parse('https://docs.google.com/spreadsheets/d/1BLSoA3OySbXAAfRmwbyVvxbG9b_42Dpn-bIFCbVCcoM/edit#gid=0', {
+          Papa.parse('https://docs.google.com/spreadsheets/d/e/2PACX-1vRPFJ5XWLa9nEhOR-LaRoUcy0KFEqId6gSrIg4OYqQq625VOfcim9odmZCdfHI4Mc3o6mM5ntxgeo60/pubhtml', {
           download: true,
           header: true,
           complete: function(results) {
