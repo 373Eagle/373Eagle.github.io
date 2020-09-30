@@ -1,0 +1,10 @@
+function init() {
+          Papa.parse('https://docs.google.com/spreadsheets/d/1BLSoA3OySbXAAfRmwbyVvxbG9b_42Dpn-bIFCbVCcoM/edit#gid=0', {
+          download: true,
+          header: true,
+          complete: function(results) {
+            var data = results.data
+            console.log(data)
+          }
+        })
+window.addEventListener('DOMContentLoaded', init)
